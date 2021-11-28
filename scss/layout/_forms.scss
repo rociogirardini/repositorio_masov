@@ -1,0 +1,42 @@
+// FORMULARIO DE CONTACTO
+.form{
+    width:450px;
+    padding:30px;
+    border-radius: 10px;
+    background-color: #ccc;
+    .form__label{
+        width: 180px;
+        display: inline-block;
+    }
+    .form__input{
+        border: 1px solid #f6f6f6;
+        border-radius: 3px;
+        background-color: #f6f6f6;
+        margin: 8px 0px;
+        display: inline-block
+    }
+    .form_input--casillaPequeña{
+        @extend .form__input;
+        width: 200px;
+        padding: 3px 10px;
+    }
+    .form__textarea{
+        @extend .form__input;
+        padding: 10px 0px 0px 10px;
+    }
+    .form_button{
+        @extend .form__input;
+        padding: 3px 10px;
+        border: 1px #f6f6f6;
+    }
+    .form_button--submit:hover{
+        background-color: $color-button-submit;
+        transition: 0.2s linear;
+        color: $color-texto-general;
+    }
+    .form_button--reset:hover{
+        background-color: $color-button-reset;
+        transition: 0.2s linear;
+        color: $color-texto-general;
+    }
+}

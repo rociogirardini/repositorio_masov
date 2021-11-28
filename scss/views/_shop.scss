@@ -1,0 +1,23 @@
+// SHOP ONLINE
+.tiendaOnline{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    grid-gap: 20px;
+    align-items: start;
+    padding: 3% 8% 3% 8%;
+    .tiendaOnline__microorganismo{
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+    }
+    .tiendaOnline__microorganismo__img{
+        max-width: 100%;
+    }
+    .tiendaOnline__microorganismo__texto{
+        padding: 0 20px 20px;
+        .tiendaOnline__microorganismo__texto__h3{
+            font-weight: 800;
+            padding: 1%
+        }
+    }
+}

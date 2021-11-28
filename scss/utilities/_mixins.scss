@@ -1,0 +1,8 @@
+    // Background de secciones - Home
+    @mixin tipoDeSeccion($parametro){
+        @if $parametro == par{
+            background-image: linear-gradient(to right, #4A6C6F, #BBCEA8);
+        } @else if $parametro == impar{
+            background-image: radial-gradient(#70bd4f, #064e25)
+        }
+    }

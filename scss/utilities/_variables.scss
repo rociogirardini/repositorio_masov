@@ -1,0 +1,32 @@
+// TITULO H1
+$title-font: 'Bebas Neue', sans-serif;
+$title-size: 700%;
+$title-style: 10px;
+// SUBTITULO
+$subtitle-font: 'Montserrat', sans-serif;
+$subtitle-size: 150%;
+$subtitle-weight: 200px;
+// COLORES
+$background-title:black;
+$font-color-footer: #F7CB15;
+$color-activo-nav: #F7CB15;
+$color-hover:#cc4c32;
+$color-texto-general: white;
+$background-nav: white;
+$seccion-par-background: linear-gradient(to right, #4A6C6F, #BBCEA8);
+$seccion-inpar-background: radial-gradient(#70bd4f, #064e25);
+$color-button-submit: #4d8b32;
+$color-button-reset: #e2b80f;
+// TIPOGRAFIAS BASE
+$general-font: 'Montserrat', sans-serif;
+    // ESTILOS H2
+    $h2-size:8vh;
+    $h2-size-footer:5vh;
+    $h2-weight: 800;
+// CONDICIONALES
+    // Iconos contacto Footer
+    @each $icono in home, maps, phone, mail{
+        .#{$icono}{
+            content: url(../../media/#{$icono}.png)
+        }
+    }

@@ -1,0 +1,22 @@
+// HEADER Y NAVEGACIÓN
+.navbar{
+    background-color: $background-nav;
+    .nav__listItem__activo{
+        background-color: $color-activo-nav;
+        box-shadow: 8px 8px 10px 2px rgba(0,0,0,0.47);
+        border-radius: 10px;
+    }
+    .nav__listItem{
+        padding: 0px 5px 0px 5px;
+        .nav__listItem__a{
+            transition: 0.3s linear;
+            color:black
+        }
+        .nav__listItem__a:hover{
+            background-color: $color-hover;
+            color:$color-texto-general;
+            box-shadow: 8px 8px 10px 2px rgba(0,0,0,0.47);
+            border-radius: 10px;
+        }
+    }
+}

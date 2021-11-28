@@ -1,0 +1,48 @@
+// FOOTER
+footer{
+    background-color: black;
+    color:$color-texto-general;
+    font-family: $general-font;
+    padding:3% 0 3% 0;
+    .row {--bs-gutter-x: 0rem;}
+    .footer__ul {
+        list-style: none;
+        padding-left: 0px;
+        .footer__ul__a{
+            text-decoration: none;
+            color:$color-texto-general
+        }
+        .footer__ul__a:hover{
+            text-decoration: underline;
+            color: $color-texto-general
+        }
+    }
+    .footer__h2{
+        color: $font-color-footer;
+        font-family: $general-font;
+        font-size: $h2-size-footer;
+        display:grid;
+        justify-content:start;
+        font-weight: $h2-weight;
+        padding-bottom: 5%;
+    }
+    .footer__socialFooter img{
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        margin:10px
+    }
+    .footer__footerCompleto{
+        padding: 2% 0% 2% 0%;
+    }
+    .boletinFooter__casillaEmail{
+        padding: 5px;
+    }
+    .button__general--padding{
+        padding: 5px
+    }
+    .button__general--padding:hover{
+        color:$color-texto-general;
+        background-color:$color-hover ;
+    }
+}
