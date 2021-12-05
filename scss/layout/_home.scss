@@ -88,12 +88,7 @@ $ancho:280px;
     align-items: center;
     .productosInicio__img{
         height: 85%;
-        width: 75%;
-    }
-    .productosInicio__informacionOculta{
-        display:none;
-        position:absolute;
-        background: rgba(0,0,0,0.3);
+        width: 75%
     }
     .productosInicio__img:hover{
         transform: scale(1.1,1.1);
