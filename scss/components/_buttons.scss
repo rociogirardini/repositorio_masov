@@ -2,6 +2,8 @@
 .button__general{
     padding: 10px;
     align-items: center;
+    border: none;
+    background-color: $color-button-principal;
     .button__general__a{
         text-decoration: none;
         color:white;
