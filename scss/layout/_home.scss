@@ -38,12 +38,12 @@ main{
     .row {--bs-gutter-x: 0rem;}
     .main__seccion--par{
         text-align: center;
-        padding:2% 0 6% 0;
+        padding-top:2%;
         @include tipoDeSeccion(par)
     }
     .main__seccion--impar{
         text-align: center;
-        padding:2% 0 6% 0;
+        padding:2% 0 3% 0;
         @include tipoDeSeccion(impar)
     }
     .main__h2{
@@ -88,8 +88,9 @@ $ancho:280px;
     justify-items: center;
     align-items: center;
     .productosInicio__img{
-        height: 85%;
-        width: 75%
+        height: 250px;
+        width: 300px;
+        padding: 1.5%;
     }
     .productosInicio__img:hover{
         transform: scale(1.1,1.1);
