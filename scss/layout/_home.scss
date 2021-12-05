@@ -15,9 +15,10 @@
         grid-area:seccionPrincipal;
         text-align: center;
         color:$color-texto-general;
+        --bs-gutter-x: 0;
         .background__seccionPrincipal__estiloTitulo{
             background-color: $background-title;
-            padding: 50px 50px 50px 80px;
+            padding: 30px 30px 50px 30px;
             .background__seccionPrincipal__estiloTitulo__h1{
                 font-family: $title-font;
                 font-size: $title-size;
