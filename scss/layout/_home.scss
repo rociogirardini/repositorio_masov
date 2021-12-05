@@ -90,6 +90,11 @@ $ancho:280px;
         height: 85%;
         width: 75%;
     }
+    .productosInicio__informacionOculta{
+        display:none;
+        position:absolute;
+        background: rgba(0,0,0,0.3);
+    }
     .productosInicio__img:hover{
         transform: scale(1.1,1.1);
         border-radius: 12pt;

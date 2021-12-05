@@ -104,6 +104,10 @@ main {
   .productosInicio .productosInicio__img {
     height: 85%;
     width: 75%; }
+  .productosInicio .productosInicio__informacionOculta {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3); }
   .productosInicio .productosInicio__img:hover {
     transform: scale(1.1, 1.1);
     border-radius: 12pt; }
@@ -148,7 +152,8 @@ footer {
     padding: 5px; }
   footer .button__general--padding:hover {
     color: white;
-    background-color: #ee585a; }
+    background-color: #ee585a;
+    border: none; }
 
 .form {
   width: 450px;

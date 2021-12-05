@@ -43,6 +43,7 @@ footer{
     }
     .button__general--padding:hover{
         color:$color-texto-general;
-        background-color:$color-hover ;
+        background-color:$color-hover;
+        border: none;
     }
 }
