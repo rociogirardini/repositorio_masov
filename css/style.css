@@ -74,7 +74,7 @@ main {
     background-image: radial-gradient(#70bd4f, #064e25); }
   main .main__h2 {
     text-align: center;
-    font-size: 8vh;
+    font-size: 3vh;
     margin-bottom: 3%;
     padding-top: 3%;
     color: black;
@@ -130,7 +130,7 @@ footer {
   footer .footer__h2 {
     color: #F7CB15;
     font-family: "Montserrat", sans-serif;
-    font-size: 5vh;
+    font-size: 3vh;
     display: grid;
     justify-content: start;
     font-weight: 800;
@@ -152,7 +152,7 @@ footer {
     border: none; }
 
 .form {
-  width: 450px;
+  width: 340px;
   padding: 30px;
   border-radius: 10px;
   background-color: #ccc; }
