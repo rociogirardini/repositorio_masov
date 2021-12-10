@@ -1,7 +1,6 @@
 // SECCION TITULO
 .background{
-    background-image: url(../media/background.png);
-    background-size:1500px;
+    background: url(../../media/background.jpg) center center no-repeat;
     height: 550px;
     display:grid;
     grid-template-areas:
@@ -58,7 +57,7 @@ main{
     .main__h3{
         margin: 5% 0% 5% 0%;
         font-weight: bolder;
-        color:rgb(43, 43, 43);
+        color:#2b2b2b;
         font-size: 150%;
     }
 }
