@@ -116,7 +116,7 @@ footer {
   background-color: #212529;
   color: white;
   font-family: "Montserrat", sans-serif;
-  padding: 3% 0 3% 0; }
+  padding-top: 1%; }
   footer .row {
     --bs-gutter-x: 0rem; }
   footer .footer__ul {
@@ -129,9 +129,9 @@ footer {
       text-decoration: underline;
       color: white; }
   footer .footer__h2 {
-    color: #F7CB15;
+    color: #E9C591;
     font-family: "Montserrat", sans-serif;
-    font-size: 3vh;
+    font-size: 150%;
     display: grid;
     justify-content: start;
     font-weight: 800;
@@ -142,7 +142,7 @@ footer {
     justify-content: center;
     margin: 10px; }
   footer .footer__footerCompleto {
-    padding: 2% 0% 2% 0%; }
+    padding: 1% 0% 1% 0%; }
   footer .boletinFooter__casillaEmail {
     padding: 5px; }
   footer .button__general--padding {
