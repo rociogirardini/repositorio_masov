@@ -48,11 +48,9 @@ main{
     }
     .main__h2{
         text-align: center;
-        font-size:$h2-size;
         margin-bottom: 3%;
         padding-top: 3%;
         color: black;
-        font-weight:$h2-weight;
     }
     .main__h3{
         margin: 5% 0% 5% 0%;
@@ -64,6 +62,7 @@ main{
 // SECCION NOSOTROS
 $ancho:280px;
 .mainCajas{
+    padding-bottom: 15px;
     .mainCajas__caja{
         // border: 2px solid ;
         box-shadow:0px 0px 6px 1px #E9C591;
@@ -75,8 +74,29 @@ $ancho:280px;
         padding:15px
     }
 }
+// SECCION BOLETIN
+.newsletter{
+    padding:7rem 0;
+    background-color: $background-nav;
+    font-family:$general-font;
+    color:$color-texto-general ;
+    .newsletter__btn{
+        color:$third-color;
+        border: solid 2px $third-color;
+        padding: 6px;
+        margin: 4px;
+    }
+    .newsletter__btn:hover{
+        color:$third-color-ligth;
+        border:solid 2px $third-color-ligth;
+        padding: 6px;
+    }
+    .newsletter__email{
+        width: 70%;
+        padding:5px
+    }
+}
 // SECCION PRODUCTOS
-
 .productosInicio{
     justify-items: center;
     align-items: center;

@@ -77,25 +77,43 @@ main {
     background-color: #f3f3f3; }
   main .main__h2 {
     text-align: center;
-    font-size: 150%;
     margin-bottom: 3%;
     padding-top: 3%;
-    color: black;
-    font-weight: 800; }
+    color: black; }
   main .main__h3 {
     margin: 5% 0% 5% 0%;
     font-weight: bolder;
     color: #2b2b2b;
     font-size: 150%; }
 
-.mainCajas .mainCajas__caja {
-  box-shadow: 0px 0px 6px 1px #E9C591;
-  background-color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 30px;
-  height: 315px;
-  width: 290px;
-  text-align: left;
-  padding: 15px; }
+.mainCajas {
+  padding-bottom: 15px; }
+  .mainCajas .mainCajas__caja {
+    box-shadow: 0px 0px 6px 1px #E9C591;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+    height: 315px;
+    width: 290px;
+    text-align: left;
+    padding: 15px; }
+
+.newsletter {
+  padding: 7rem 0;
+  background-color: #242424;
+  font-family: "Montserrat", sans-serif;
+  color: white; }
+  .newsletter .newsletter__btn {
+    color: #FF4343;
+    border: solid 2px #FF4343;
+    padding: 6px;
+    margin: 4px; }
+  .newsletter .newsletter__btn:hover {
+    color: #fa7e7e;
+    border: solid 2px #fa7e7e;
+    padding: 6px; }
+  .newsletter .newsletter__email {
+    width: 70%;
+    padding: 5px; }
 
 .productosInicio {
   justify-items: center;
@@ -116,9 +134,16 @@ footer {
   background-color: #212529;
   color: white;
   font-family: "Montserrat", sans-serif;
-  padding-top: 1%; }
+  padding: 4rem 0; }
+  footer .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px; }
   footer .row {
     --bs-gutter-x: 0rem; }
+  footer .col-md-3 {
+    width: 25%;
+    padding: 1.3rem; }
   footer .footer__ul {
     list-style: none;
     padding-left: 0px; }
@@ -131,26 +156,14 @@ footer {
   footer .footer__h2 {
     color: #E9C591;
     font-family: "Montserrat", sans-serif;
-    font-size: 150%;
-    display: grid;
-    justify-content: start;
-    font-weight: 800;
-    padding-bottom: 5%; }
-  footer .footer__socialFooter img {
-    width: 50px;
-    height: 50px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1rem;
+    font-size: 1.3rem; }
+  footer img {
+    width: 40px;
+    height: 40px;
     justify-content: center;
-    margin: 10px; }
-  footer .footer__footerCompleto {
-    padding: 1% 0% 1% 0%; }
-  footer .boletinFooter__casillaEmail {
-    padding: 5px; }
-  footer .button__general--padding {
-    padding: 5px; }
-  footer .button__general--padding:hover {
-    color: white;
-    background-color: #ee585a;
-    border: none; }
+    margin: 8px; }
 
 .form {
   width: 340px;
