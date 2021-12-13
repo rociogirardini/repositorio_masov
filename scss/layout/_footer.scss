@@ -4,14 +4,10 @@ footer{
     color:$color-texto-general;
     font-family: $general-font;
     padding: 4rem 0;
-    .container{
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1140px;
-    }
+    justify-items: left;
+    align-items: left;
     .row {--bs-gutter-x: 0rem;}
     .col-md-3{
-        width: 25%;
         padding: 1.3rem
     }
     .footer__ul {
@@ -23,7 +19,6 @@ footer{
         }
         .footer__ul__a:hover{
             text-decoration: underline;
-            color: $color-texto-general
         }
     }
     .footer__h2{

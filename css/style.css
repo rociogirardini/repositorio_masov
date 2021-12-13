@@ -105,15 +105,17 @@ main {
   .newsletter .newsletter__btn {
     color: #FF4343;
     border: solid 2px #FF4343;
-    padding: 6px;
-    margin: 4px; }
+    padding: 0.6rem;
+    margin: 4px;
+    background: none;
+    font-style: bold; }
   .newsletter .newsletter__btn:hover {
     color: #fa7e7e;
     border: solid 2px #fa7e7e;
-    padding: 6px; }
+    padding: 0.6rem; }
   .newsletter .newsletter__email {
     width: 70%;
-    padding: 5px; }
+    padding: 0.6rem; }
 
 .productosInicio {
   justify-items: center;
@@ -134,15 +136,12 @@ footer {
   background-color: #212529;
   color: white;
   font-family: "Montserrat", sans-serif;
-  padding: 4rem 0; }
-  footer .container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1140px; }
+  padding: 4rem 0;
+  justify-items: left;
+  align-items: left; }
   footer .row {
     --bs-gutter-x: 0rem; }
   footer .col-md-3 {
-    width: 25%;
     padding: 1.3rem; }
   footer .footer__ul {
     list-style: none;
@@ -151,8 +150,7 @@ footer {
       text-decoration: none;
       color: white; }
     footer .footer__ul .footer__ul__a:hover {
-      text-decoration: underline;
-      color: white; }
+      text-decoration: underline; }
   footer .footer__h2 {
     color: #E9C591;
     font-family: "Montserrat", sans-serif;
@@ -166,10 +164,9 @@ footer {
     margin: 8px; }
 
 .form {
-  width: 340px;
+  width: 40vw;
   padding: 30px;
-  border-radius: 10px;
-  background-color: #ccc; }
+  border-radius: 10px; }
   .form .form__label {
     width: 180px;
     display: inline-block; }

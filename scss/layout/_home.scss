@@ -64,7 +64,6 @@ $ancho:280px;
 .mainCajas{
     padding-bottom: 15px;
     .mainCajas__caja{
-        // border: 2px solid ;
         box-shadow:0px 0px 6px 1px #E9C591;
         background-color: rgba(255, 255, 255,0.9);
         margin-bottom: 30px;
@@ -83,17 +82,19 @@ $ancho:280px;
     .newsletter__btn{
         color:$third-color;
         border: solid 2px $third-color;
-        padding: 6px;
+        padding: 0.6rem;
         margin: 4px;
+        background: none;
+        font-style: bold;
     }
     .newsletter__btn:hover{
         color:$third-color-ligth;
         border:solid 2px $third-color-ligth;
-        padding: 6px;
+        padding: 0.6rem;
     }
     .newsletter__email{
         width: 70%;
-        padding:5px
+        padding:0.6rem
     }
 }
 // SECCION PRODUCTOS
