@@ -37,7 +37,7 @@
       transition: 0.3s linear; }
 
 .background {
-  background: url(../../media/background.jpg) center center no-repeat;
+  background: url(../media/background.jpg) center center no-repeat;
   height: 550px;
   display: grid;
   grid-template-areas: "seccionPrincipal" "button";
